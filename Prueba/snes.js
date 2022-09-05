@@ -118,4 +118,4 @@ function pressSelect() {
   
   const job1 = schedule.scheduleJob(rule, pressSelect);
   
-//pressSelect();
+pressSelect();
