@@ -1,0 +1,27 @@
+{
+  "name": "snes-soundtracks",
+  "version": "1.0.0",
+  "description": "Snes",
+  "main": "snes.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./snes.js",
+    "develop": "NODE_ENV=develop node snes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chordyinfinity/snes-soundtracks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chordyinfinity/snes-soundtracks/issues"
+  },
+  "homepage": "https://github.com/chordyinfinity/snes-soundtracks#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-schedule": "^2.1.0",
+    "twit": "^2.2.11"
+  }
+}
