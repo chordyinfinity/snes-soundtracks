@@ -4,7 +4,7 @@
   "description": "Snes",
   "main": "snes.js",
   "scripts": {
-    "test": "mocha",
+    "test": "snes.js",
     "start": "node ./snes.js",
     "develop": "NODE_ENV=develop node snes.js"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/chordyinfinity/snes-soundtracks#readme",
   "dependencies": {
+    "config": "^3.3.7",
     "dotenv": "^16.0.2",
     "node-schedule": "^2.1.0",
     "twit": "^2.2.11"
